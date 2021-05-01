@@ -1,0 +1,1 @@
+# -LIFEFIRE.sol
