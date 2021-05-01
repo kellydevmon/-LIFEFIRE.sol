@@ -1,0 +1,53 @@
+{
+  "name": "@libertypie/truffle-seeder",
+  "version": "1.1.9",
+  "description": "Easily seed initial data to smart contracts using this npm package",
+  "main": "src/core.js",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "argparse": "^2.0.1",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.1.2",
+    "extract-json-from-string": "^1.0.1",
+    "inquirer": "^8.0.0",
+    "slugify": "^1.5.0",
+    "snake-case": "^3.0.4",
+    "web3": "^1.3.5",
+    "web3-net": "^1.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seeder-run": "./cli/seeder_run.js",
+    "seeder-init": "./src/init.js"
+  },
+  "bin": {
+    "seeder-run": "./cli/seeder_run.js",
+    "seeder-init": "./src/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LibertyPie/truffle-seeder.git"
+  },
+  "keywords": [
+    "Truffle",
+    "Solidity",
+    "LibertyPie",
+    "Smart",
+    "Contracts",
+    "Cryptocurrencies",
+    "Vyper",
+    "Ethereum",
+    "Binance",
+    "Smart",
+    "Chain",
+    "XPIE"
+  ],
+  "author": "@zakpie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LibertyPie/truffle-seeder/issues"
+  },
+  "homepage": "https://github.com/LibertyPie/truffle-seeder#readme"
+}
