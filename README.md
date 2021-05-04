@@ -1,4 +1,4 @@
-# -LIFEFIRE
+# -SafeRouterMoon
 Easily seed initial data to smart contracts using this npm package 
 
 ## Installation
